@@ -1,0 +1,124 @@
+body{
+  font-family: Inter, sans-serif;
+  
+  background-color: #f4f4f4;
+  padding: 5rem 10rem;
+  color: #383733;
+  background-image: url('./img/bg1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.app{
+  max-width: 800px;
+  margin: 10rem auto;
+  background-color: #1C1C1C;
+  padding: 3rem 3rem;
+  border-radius: 10px;
+  border: 2px solid chartreuse;
+
+}
+h1{
+  text-align: center;
+  color: chartreuse;
+
+}
+h2, h3{
+  color: chartreuse;
+  margin-bottom: 10px;
+}
+p{
+  font-style: italic;
+  margin: 10px 0;
+}
+.entrada{
+  margin-bottom: 10px;
+
+  background-color: #3c3c3b;
+  border: 1px solid #00E5EE ;
+  
+  height: 20px; 
+  border-radius: 4px;
+  margin-right: 2px;
+  /*
+  box-sizing: 10px 0;
+  */
+}
+.entrada:placeholder-shown{
+  color: rgb(80, 63, 63);
+}
+select{
+  margin-right: 10px;
+  padding: 5px;
+  height: 27px;
+  margin-bottom: 10px;
+  border: 2px solid #00E5EE;
+  border-radius: 3px;
+}
+button{
+  display: table-column;
+  background-color: #FFFACD	;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid #00E5EE;
+  margin: 0px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+  display: inline-flex;
+  
+  
+}
+button:hover{
+  opacity: 10;
+}
+.todo-form{
+  padding-bottom: 1.5rem;
+}
+
+input, select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #00E5EE;
+  width: 100%;
+}
+
+button:hover{
+  opacity: 1;  
+}
+.complete{
+  border: 1px solid #5cb85c;
+}
+.remove {
+  border: 2px solid red;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+.todo{
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter, .search{
+  border-bottom: 1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.filter-options div{
+  flex: 1 1 0;
+}
